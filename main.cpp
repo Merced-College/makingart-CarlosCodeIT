@@ -12,6 +12,9 @@ const int PALETTE_SIZE = 6;
 int red[PALETTE_SIZE]   = { 54, 250,  90,   10, 5, 36};
 int green[PALETTE_SIZE] = { 243,  70,  10,   100, 25, 87};
 int blue[PALETTE_SIZE]  = { 100, 100, 92, 150, 205, 106};
+int purple[PALETTE_SIZE] = { red[0] + blue[0], red[1] + blue[1], red[2] + blue[2], red[3] + blue[3], red[4] + blue[4] };
+int yellow[PALETTE_SIZE] = { red[0] + green[0], red[1] + green[1], red[2] + green[2], red[3] + green[3], red[4] + green[4] };
+
 
 int main() {
     const int WIDTH = 800;
@@ -73,3 +76,4 @@ int main() {
     std::cout << "mandelbrot.html generated — open it in your cloud IDE's browser preview.\n";
     return 0;
 }
+
