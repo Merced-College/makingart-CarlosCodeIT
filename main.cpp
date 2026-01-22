@@ -1,3 +1,8 @@
+//Carlos Vega
+//1/22/26
+//Prof. Kanemoto
+//Assignment: mandelbrot
+
 #include <iostream>
 #include <fstream>
 
